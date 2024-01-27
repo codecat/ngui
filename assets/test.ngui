@@ -1,0 +1,16 @@
+style
+	vbox
+		spacing 8
+		padding 8
+	hbox
+		spacing 8
+
+	icon
+		fontsize 50
+
+vbox
+	label "Here's some icons"
+	hbox
+		icon "heartbeat" $color="#f39"
+		icon "heartbeat" $color="#f93"
+		icon "heartbeat" $color="#3f9"

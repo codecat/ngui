@@ -1,0 +1,31 @@
+style
+	#stats
+		padding 20
+		spacing 20
+		anchor "b"
+
+	.element
+		padding "16 8"
+		spacing 20
+		background 0x0000006F
+		border_radius 4
+
+		icon
+			color 0xD19F48FF
+			fontsize 32
+
+		label
+			color 0xD19F48FF
+			font "assets/cstrike.ttf"
+			fontsize 32
+
+hbox#stats
+	hbox#hp.element
+		icon "heartbeat"
+		label "42"
+	hbox#armor.element
+		icon "shield"
+		label "99"
+	hbox#money.element
+		icon "money"
+		label "$94,300"
